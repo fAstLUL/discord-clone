@@ -1,0 +1,90 @@
+.main {
+  background-color: rgb(49, 51, 56);
+  top: 49px;
+  bottom: 0;
+  right: 230px;
+  left: 312px;
+  padding-top: 10px;
+  
+  
+  font-family: "gg sans Medium Regular", Arial;
+  color: white;
+
+  position: fixed;
+  overflow: auto;
+
+  z-index: 1000;
+ 
+
+}
+
+.main::-webkit-scrollbar {
+  width: 0.8vw;
+}
+
+.main::-webkit-scrollbar-thumb {
+  background-color: rgb(27, 28, 31);
+  border: .2vw solid rgb(49, 51, 56);
+  border-bottom-color: rgb(43, 45, 49);
+  border-top-color: rgb(43, 45, 49);
+  border-radius: 100px;
+}
+
+.main::-webkit-scrollbar-track {
+  background-color: rgb(43, 45, 49);
+  border: .2vw solid rgb(49, 51, 56);
+  border-radius: 10px;
+}
+
+
+.message-box {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+
+  background-color: rgb(49, 51, 56);
+  white-space: nowrap;
+}
+
+.message-box:hover {
+  background-color: rgb(41, 42, 46);
+}
+
+.message-profile {
+  display: flex;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.pfp {
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.name-date {
+  display: flex;
+  white-space: nowrap;
+}
+
+.message-name {
+  margin-right: 4px;
+}
+
+.message-date {
+  color: rgb(148, 155, 157);
+  font-size: 12px;
+  padding-top: 4px;
+}
+
+.message-message {
+  white-space: normal;
+  width: 100%;
+}
+
+.pic {
+  margin-top: 5px;
+  border-radius: 4px;
+}

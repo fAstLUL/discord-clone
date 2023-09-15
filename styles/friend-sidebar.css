@@ -1,0 +1,111 @@
+.friends {
+  background-color: rgb(43, 45, 49);
+  font-family: "gg sans Medium Regular", Arial;
+  color: white;
+  width: 230px;
+
+  right: 0px;
+  bottom: 0;
+  top: 48px;
+
+  position: fixed;
+  overflow: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.friends:hover {
+  overflow-y: scroll;
+}
+
+.friends::-webkit-scrollbar {
+  width: 0.6vw;
+}
+
+.friends::-webkit-scrollbar-thumb {
+  background-color: rgb(27, 28, 31);
+  border: .2vw solid rgb(49, 51, 56);
+  border-bottom-color: rgb(43, 45, 49);
+  border-top-color: rgb(43, 45, 49);
+  border-radius: 100px;
+}
+
+.friends::-webkit-scrollbar-track {
+  background-color: none
+}
+
+.role-split {
+  color: rgb(148, 155, 164);
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.friend-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-top: 6px;
+  border-radius: 5px;
+}
+
+.friend-box:hover {
+  background-color: rgb(70, 73, 80);
+}
+
+.friend-pfp {
+  position: relative;
+  margin-left: 10px;
+  width: 32px;
+  border-radius: 20px;
+  height: auto;
+  cursor: pointer;
+}
+
+.status {
+  position: absolute;
+  width: 15px;
+  height: auto;
+  margin-left: 30px;
+  margin-bottom: -15px;
+  cursor: pointer;
+
+  z-index: 101;
+}
+
+
+.friend-name, 
+.friend-name-s,
+.friend-name-a,
+.friend-name-b,
+.friend-name-c,
+.friend-name-d,
+.friend-name-f {
+  margin-left: 8px;
+  font-size: 18px;
+}
+
+.friend-name-s {
+  color: rgb(14, 196, 14);
+}
+
+.friend-name-a {
+  color: rgb(235, 140, 37);
+}
+
+.friend-name-b {
+  color: rgb(245, 176, 65);
+}
+
+.friend-name-c {
+  color: rgb(230, 247, 142);
+}
+
+.friend-name-d {
+  color: rgb(181, 238, 114);
+}
+
+.friend-name-f {
+  color: rgb(94, 209, 64);
+}

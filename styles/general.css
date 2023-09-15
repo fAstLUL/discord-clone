@@ -1,0 +1,21 @@
+p {
+  font-family: 'gg sans Bold', Arial;
+  font-size: 100px;
+}
+
+body {
+  font-family: 'gg sans Bold', Arial;
+  background-color: rgb(49, 51, 56);
+}
+
+html::-webkit-scrollbar {
+  width: 3vw;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0);
+}
+
+html::-webkit-scrollbar-track {
+  background-color: rgb(37, 37, 37);
+}

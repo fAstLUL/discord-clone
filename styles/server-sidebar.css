@@ -1,0 +1,38 @@
+.servers {
+  background-color: rgb(30, 31, 34);
+  color: white;
+  width: 72px;
+  height: 100%;
+
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  bottom: 0;
+  top: 0;
+
+  overflow: auto;
+}
+
+.servers::-webkit-scrollbar {
+  width: 0;
+}
+
+.server-icon {
+  border-radius: 100px;
+  margin: 5px 10px 5px 10px;
+  transition: border-radius .2s;
+}
+
+.server-icon:hover,
+.server-icon-top:hover {
+  border-radius: 20px;
+}
+
+.server-icon-top {
+  width: 63px;
+  justify-content: center;
+  border-radius: 100px;
+  margin: 15px 30px 15px 7px;
+  transition: border-radius .2s;
+}
